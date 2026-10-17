@@ -1,0 +1,3 @@
+[build]
+# The local build filesystem cannot hard-link Rust's incremental cache.
+incremental = false
